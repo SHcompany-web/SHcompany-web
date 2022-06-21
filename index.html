@@ -1,0 +1,384 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.84.0">
+    <title>SHcompany</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/carousel/">
+
+    
+
+    <!-- Bootstrap core CSS -->
+<link href="css and js/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+    
+    <!-- Custom styles for this template -->
+    <link href="css and js/carousel.css" rel="stylesheet">
+  </head>
+  <body style="padding-top: 0px;">
+    
+    <header>
+      <div class="collapse bg-dark" id="navbarHeader" style="margin-top: 0px;">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-8 col-md-7 py-4">
+              <h4 class="text-white">О нас</h4>
+              <p class="text-muted">Здраствуйте меня зовут Шохрух. Мне 17 и я WEB-программист. Я создаю сайты в браузерах. Если вы хотите продвинуть свой бизнес то вы попали в место. Пора создать собственный web-сайт.</p>
+            </div>
+            <div class="col-sm-4 offset-md-1 py-4">
+              <h4 class="text-white">Реквbзитs</h4>
+              <ul class="list-unstyled">
+                <li><a href="#" class="text-white" style="text-decoration: none;">Instagram: webcreator2022</a></li>
+                <li><a href="#" class="text-white" style="text-decoration: none;">Telegram: @yoqubovshohrukh</a></li>
+                <li><a href="#" class="text-white" style="text-decoration: none;">yoqubovshohrukh@gmail.com</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="navbar navbar-dark bg-dark shadow-sm">
+        <div class="container">
+          <a href="#" class="navbar-brand d-flex align-items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true" class="me-2" viewBox="0 0 24 24"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg>
+            <strong>SHcompany</strong>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+<main>
+
+  <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><img src="images/newslaider3.jpg" alt="" style="width: 880px;"></svg>
+
+        <div class="container">
+          <div class="carousel-caption text-start">
+            <h1>Пара действовать.</h1>
+            <p>Нажмите на кнопку "заказать" чтобы ознокомиться с тарифами сайта.</p>
+            <p><a class="btn btn-lg btn-primary" href="order.html">Заказать</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><img src="images/newslaider2.jpg" alt="" width="100%" height="100%" fill="#777"></svg>
+
+        <div class="container">
+          <div class="carousel-caption text-start">
+            <h1>Дизайн.</h1>
+            <p>Типы фона,картинок,иконок,кнопок и вообще о дизайне сайта.</p>
+            <p><a class="btn btn-lg btn-primary" href="design.html">Дизайн</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><img src="images/slaider2.jpg" alt="" width="100%" height="100%"></svg>
+
+        <div class="container">
+          <div class="carousel-caption text-start">
+            <h1>Изучите</h1>
+            <p>Изучите нас по подробнее и заказите ваш сайт.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+  <!-- Marketing messaging and featurettes
+  ================================================== -->
+  <!-- Wrap the rest of the page in another container to center all the content. -->
+  <div class="bg-dark text-secondary px-4 py-5 text-center" style="margin-top: 100px;">
+    <div class="py-5">
+      <h1 class="display-5 fw-bold text-white" style="width: 100%;">Этапы создания сайта</h1>
+        </div>
+  </div>
+
+  <div class="container marketing">
+
+    <!-- Three columns of text below the carousel -->
+    <div class="row" style="margin-top: 100px;">
+      <div class="col-lg-4">
+        <img src="images/website.png" alt="" class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="" role="img" aria-label="Placeholder: 140x140">
+
+        <h2>Выбор макета</h2>
+        <p>Первый этап разработка сайта это выбор шаблона. Создание сайта с помощью макета это очень удобно, легко и главное качественно.</p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <img src="images/code (1).png" alt="" class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="" role="img" aria-label="Placeholder: 140x140">
+
+        <h2>Написание кода</h2>
+        <p>Второй этап создание сайта это написание кода. Используется языки как HTML, CSS и JS. В качестве допольнительного ресурса входить некоторые плагины.</p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <img src="images/cloud.png" alt="" class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="" role="img" aria-label="Placeholder: 140x140">
+
+        <h2>Хостинг</h2>
+        <p>Финалный этап создание сайта это хостинг. Если по другому сказать добавим сайт в интернет. </p>
+      </div><!-- /.col-lg-4 -->
+    </div><!-- /.row -->
+
+
+    <!-- Этапи создание сайта -->
+    <div class="container col-xxl-8 px-4 py-5">
+      <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+        <div class="col-10 col-sm-8 col-lg-6">
+          <img src="images/bootstrap-themes.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+        </div>
+        <div class="col-lg-6">
+          <h1 class="display-5 fw-bold lh-1 mb-3">Шаблоны</h1>
+          <p class="lead">Для создание сайта потребуется шаблоны. Бывает 2 тыпа шаблонов. На заказ и готовый. Готовые шаблоны это готовые бесплатные шаблоны которые можно найти в приложении Figma. А на заказ это те шаблоны которую нужно заказать на дизайнера и оплатить доподьнителную денег.</p>
+          <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+            <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">На заказ</button>
+            <button type="button" class="btn btn-outline-secondary btn-lg px-4">Готовый</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+<!-- Coding -->
+<section class="py-5 text-center container">
+  <div class="row py-lg-5">
+    <div class="col-lg-6 col-md-8 mx-auto">
+      <h1 class="fw-light">Написание кода</h1>
+      <p class="lead text-muted">Второй этап создание сайта это написание кода. Этот этап является самой главной часть создание сайта потому что мы создадим сайт. Для написание кода нужно иметь работать с языками программирование как HTML, CSS и JS.</p>
+    </div>
+  </div>
+</section>
+
+<div class="album py-5 bg-light" style="margin-top: -50px;">
+  <div class="container">
+
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+      <div class="col">
+        <div class="card shadow-sm">
+          <img src="images/html.png" alt="" class="bd-placeholder-img card-img-top">
+
+          <div class="card-body">
+            <p class="card-text">HTML один из самых популярных языков программирование. Этот язык программирование нужно чтобы добавить блоки на сайт например: параграфи(Р), заголовки(Н) и т.д.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card shadow-sm">
+          <img src="images/css2.jpg" alt="" class="bd-placeholder-img card-img-top">
+          <div class="card-body">
+            <p class="card-text">CSS это язык стилей. Используя этот язык мы можем стилизировать определённый блок. Например:мы можем изменить фон или задать ширину и высоту блока, задать цвет к блоку и т.д.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card shadow-sm">
+          <img src="images/js.jpg" alt="" class="bd-placeholder-img card-img-top">
+          <div class="card-body">
+            <p class="card-text">JS это одиниз часто исползуемих языков программирование. С помощью этого языка мы можем создать гамбургер, слайдер, анимация при скролле, эффект при клике мыщью и многое чего.</p>
+          </div>
+        </div>
+      </div>
+
+  </div>
+    <!-- Этапи создание сайта -->
+    <div class="px-4 pt-5 my-5 text-center border-bottom">
+      <h1 class="display-4 fw-bold">Плагины</h1>
+      <div class="col-lg-6 mx-auto">
+        <p class="lead mb-4">Для быстрого и эффективного создание сайта можно исползовать плагины как Bootstrap. Быстрий дизайн, адаптивний вёрстка, готовые коды и многое другое можно найти в bootstrap. </p>
+        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+          <a href="bootstrap.com">
+          <button type="button" class="btn btn-outline-secondary btn-lg px-4">Bootstrap</button>
+          </a>
+        </div>
+      </div>
+      <div class="overflow-hidden" style="max-height: 30vh;">
+        <div class="container px-5">
+          <img src="images/bootstrap-docs.png" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image" width="700" height="500" loading="lazy">
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Этапи создание сайта -->
+    <div class="bg-dark text-secondary px-4 py-5 text-center">
+      <div class="py-5">
+        <h1 class="display-5 fw-bold text-white">Необычний дизайн</h1>
+        <div class="col-lg-6 mx-auto">
+          <p class="fs-5 mb-4">Для более красивого страници мы исползуем белое и чёрное блоки. Ещё мы исползуем допольнителние шрифти и подходяший свет кнопок</p>
+          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+            <button type="button" class="btn btn-outline-info btn-lg px-4 me-sm-3 fw-bold">Black</button>
+            <button type="button" class="btn btn-outline-light btn-lg px-4">White</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- START THE FEATURETTES -->
+
+
+    <div class="container my-5">
+      <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
+        <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
+          <h1 class="display-4 fw-bold lh-1">Хостинг и домен</h1>
+          <p class="lead">Посдедный этап создание сайта это хостинг и домен. Эсли по другому сказать добавим сайт в интернет. Домен это имя или ссылка сайта например: web-site.com Бывает 2 типа домена: бесплатные и платные. Бесплатные web-site.github.io а платные web-site.com, web-site.io и т.д</p>
+          <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
+            <button type="button" class="btn btn-primary btn-lg px-4 me-md-2 fw-bold">Платное</button>
+            <button type="button" class="btn btn-outline-secondary btn-lg px-4">Бесплатное</button>
+          </div>
+        </div>
+        <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
+            <img class="rounded-lg-3" src="images/bootstrap-docs.png" alt="" width="720">
+        </div>
+      </div>
+    </div>
+
+    <!--  -->
+
+
+
+    <div class="container py-3">
+      <header>
+        <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+          <h1 class="display-4 fw-normal">Цены</h1>
+          <p class="fs-5 text-muted">Тарифи для создание сайта.</p>
+        </div>
+      </header>
+    
+      <main>
+        <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+          <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm">
+              <div class="card-header py-3">
+                <h4 class="my-0 fw-normal">Эконом</h4>
+              </div>
+              <div class="card-body">
+                <h1 class="card-title pricing-card-title">35$</h1>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li>web-site.github.io</li>
+                  <li>1-3 слайда</li>
+                  <li>Бесконечный хостинг</li>
+                  <li>Бесконечный домен</li>
+                  <li>Бесплатный шаблон</li>
+                  <li style="color: #fff;">FFFFFFFF</li>
+                  <li style="color: #fff;">FFFFFFFF</li>
+                  <li style="color: #fff;">FFFFFFFF</li>
+                </ul>
+<a href="order.html">
+  <button type="button" class="w-100 btn btn-lg btn-outline-primary">Заказать</button>
+</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm">
+              <div class="card-header py-3">
+                <h4 class="my-0 fw-normal">Стандарт</h4>
+              </div>
+              <div class="card-body">
+                <h1 class="card-title pricing-card-title">150$</h1>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li>web-site.com</li>
+                  <li>Хостинг на 1 год</li>
+                  <li>Домен на 1 год</li>
+                  <li>Под шаблон</li>
+                  <li>1-4 слайда</li>
+                  <li>Анимация</li>
+                  <li style="color: #fff;">FFFFFFFF</li>
+                  <li style="color: #fff;">FFFFFFFF</li>
+                </ul>
+<a href="order.html">
+  <button type="button" class="w-100 btn btn-lg btn-primary">Заказать</button>
+</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm border-primary">
+              <div class="card-header py-3 text-white bg-primary border-primary">
+                <h4 class="my-0 fw-normal">Про</h4>
+              </div>
+              <div class="card-body">
+                <h1 class="card-title pricing-card-title">250$</h1>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li>web-site.com</li>
+                  <li>Хостинг на 1 год</li>
+                  <li>Домен на 1 год</li>
+                  <li>Под шаблон</li>
+                  <li>1-5 слайда</li>
+                  <li>Анимация при клике</li>
+                  <li>Анимация при скролле</li>
+                  <li>Защита от Ddos аттак</li>
+                </ul>
+<a href="order.html">
+  <button type="button" class="w-100 btn btn-lg btn-primary">Заказать</button>
+</a>
+              </div>
+            </div>
+          </div>
+        </div>    
+      </main>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">Наша гордость</h2>
+              <p class="lead">Здраствуйте меня зовут Шохрух. Мне 17 и я WEB-программист. Я создаю сайты в браузерах. Если вы хотите продвинуть свой бизнес то вы попали в место. Пора создать собственный web-сайт.</p>
+      </div>
+      <div class="col-md-5">
+        <img src="images/myphoto.jpg" alt="" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" >
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+    <!-- /END THE FEATURETTES -->
+
+  </div><!-- /.container -->
+
+
+  <!-- FOOTER -->
+  <footer class="container">
+    <p class="float-end"><a href="#" style="text-decoration: none;">Вверх</a></p>
+    <p>&copy;2022 SHcompany</p>
+  </footer>
+</main>
+
+
+    <script src="css and js/bootstrap.bundle.min.js"></script>
+
+      
+  </body>
+</html>
